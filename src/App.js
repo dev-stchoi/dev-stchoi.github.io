@@ -3,7 +3,10 @@ import Header from './pages/Header';
 
 const App = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <p>왜 안나오는거냐</p>
+    </>
   );
 };
 
