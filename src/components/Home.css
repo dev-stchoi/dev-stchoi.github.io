@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+.typer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../img/back.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
+}
+
+.typer-text {
+  font-family: 'Noto Sans KR', sans-serif;
+  border-right: 0.1em solid white;
+  font-size: 4vw;
+  color: white;
+  white-space: pre;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+  padding-top: 0.2em;
+  animation: blink 1s step-end infinite;
+}
+
+.button {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+  width: 20vw;
+  height: 10vh;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.26);
+}

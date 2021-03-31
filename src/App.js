@@ -1,11 +1,14 @@
 import React from 'react';
-import Header from './pages/Header';
+// import Header from './components/Header';
+import 'antd/dist/antd.css';
+import Home from './components/Home';
+import Project from './components/Project';
 
 const App = () => {
   return (
     <>
-      <Header />
-      <p>왜 안나오는거냐</p>
+      <Home />
+      <Project />
     </>
   );
 };
