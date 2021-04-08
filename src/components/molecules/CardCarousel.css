@@ -1,0 +1,16 @@
+.contentStyle {
+  height: 100vh;
+  color: #fff;
+  line-height: 50vh;
+  text-align: center;
+  background: #364d79;
+}
+
+/* .about_me {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    background: white;
+    height: 100%;
+    width: 100%;
+  } */
