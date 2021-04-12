@@ -1,16 +1,7 @@
 import React from 'react';
 import CardCarousel from './molecules/CardCarousel';
 
-const contentStyle = {
-  height: '100vh',
-  color: '#fff',
-  lineHeight: '50vh',
-  textAlign: 'center',
-  background: '#364d79',
-};
-
 const Project = () => {
-  console.log('여기는 Project component');
   const cardList = [
     {
       name: '한국예탁결제원 전자투표시스템',
