@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Home />
       <About />
       <Portfolio />
+      <Contact />
     </>
   );
 };

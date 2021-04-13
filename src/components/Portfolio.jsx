@@ -1,7 +1,10 @@
 import React from 'react';
 import CardCarousel from './molecules/CardCarousel';
+import { Typography } from 'antd';
+import './Portfolio.css';
 
-const Project = () => {
+const Portfolio = () => {
+  const { Title } = Typography;
   const cardList = [
     {
       name: '한국예탁결제원 전자투표시스템',
@@ -37,7 +40,16 @@ const Project = () => {
     },
   ];
 
-  return <CardCarousel list={cardList} />;
+  return (
+    <div className="carousel">
+      <div>
+        <Title style={{ color: 'white' }}>Project</Title>
+      </div>
+      <div className="carousel_siz">
+        <CardCarousel list={cardList} />
+      </div>
+    </div>
+  );
 };
 
-export default Project;
+export default Portfolio;

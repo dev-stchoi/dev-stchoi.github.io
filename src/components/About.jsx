@@ -9,19 +9,19 @@ const About = () => {
   const data = [
     {
       skill: 'React',
-      level: '40%',
+      level: '50%',
     },
     {
       skill: 'Javascript',
-      level: '60%',
+      level: '80%',
     },
     {
       skill: 'Java',
-      level: '60%',
+      level: '70%',
     },
     {
       skill: 'Oracle',
-      level: '60%',
+      level: '70%',
     },
     {
       skill: 'CSS',
