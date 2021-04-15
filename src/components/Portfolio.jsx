@@ -31,7 +31,7 @@ const Portfolio = () => {
       name: '신용보증기금 차세대시스템 구축',
       date: '2017-08-14 ~ 2019-02-28',
       role:
-        '신용보험 시스템 개발(상담, 접수, 계약변경/심사, to-do 배치, 잔액장 배치, 거래종료 배치',
+        '신용보험 시스템 개발(보험접수, 계약변경/심사, to-do 배치, 잔액장 배치, 거래종료 배치 등)',
       skill: {
         frameworks: 'ProObject',
         tool: 'NexaCro, Sql Developer, toad, Oz Report, DA#, SVN, AnyLink',

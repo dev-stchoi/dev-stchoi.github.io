@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+.header {
+  position: fixed;
+  width: 100%;
+  background: #1b242f;
+  border-bottom: 3px solid #04c2c9;
+  height: 50px;
+}
+
+.header-text {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 800px;
+}
+
+p {
+  margin: 0px 20px 0px 20px;
+}
+p:hover {
+  color: #e31b6d;
+  cursor: pointer;
+}

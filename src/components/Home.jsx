@@ -20,9 +20,16 @@ const Home = () => {
   }, [text]);
 
   return (
-    <div className="typer" id="h">
+    <div className="typer">
       <h1 className="typer-text">{text}</h1>
-      <Button className="button">View my work</Button>
+      <Button
+        className="button"
+        onClick={() => {
+          document.getElementById('a').scrollIntoView();
+        }}
+      >
+        View my work
+      </Button>
     </div>
   );
 };
