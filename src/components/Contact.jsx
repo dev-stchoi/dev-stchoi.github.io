@@ -6,9 +6,9 @@ import { Typography } from 'antd';
 const Contact = () => {
   const { Title } = Typography;
   return (
-    <div className="contact">
+    <div className="contact" id="c">
       <Title className="contact_hedding">CONTACT!</Title>
-      <p className="email"> Email : littlebest17@naver.com </p>
+      <div className="email"> Email : littlebest17@naver.com </div>
       <a href="https://github.com/dev-stchoi?tab=repositories">
         <img src={gitimg} alt="github" className="github"></img>
       </a>

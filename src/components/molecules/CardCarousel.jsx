@@ -1,6 +1,5 @@
 import React from 'react';
 import { Carousel, Card, Typography } from 'antd';
-import PropTypes from 'prop-types';
 import './CardCarousel.css';
 
 const CardCarousel = props => {
@@ -8,12 +7,10 @@ const CardCarousel = props => {
   const { Text } = Typography;
 
   return (
-    // <div className="carousel">
-    // <div className="carousel_siz">
     <Carousel autoplay>
       {list.length > 0 &&
-        list.map(card => (
-          <div>
+        list.map((card, idx) => (
+          <div key={`carousel-data-${idx}`}>
             <Card
               title={card.name}
               bordered={false}
@@ -36,13 +33,7 @@ const CardCarousel = props => {
           </div>
         ))}
     </Carousel>
-    // </div>
-    // </div>
   );
 };
 
-CardCarousel.propTypes = {
-  // title: PropTypes.objectOf(Object).isRequired,
-  title: PropTypes.string.isRequired,
-};
 export default CardCarousel;
