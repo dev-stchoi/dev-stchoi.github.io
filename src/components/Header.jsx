@@ -21,6 +21,13 @@ const Header = () => {
         </p>
         <p
           onClick={() => {
+            document.getElementById('s').scrollIntoView();
+          }}
+        >
+          Skill
+        </p>
+        <p
+          onClick={() => {
             document.getElementById('p').scrollIntoView();
           }}
         >

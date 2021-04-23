@@ -65,11 +65,11 @@ const About = () => {
         <div className="about_me_picture">
           <img src={myImg} className="hedding" alt="profile" />
         </div>
-        <div className="about_me_content">
+        {/* <div className="about_me_content">
           {data.map((item, idx) => (
             <Bar skill={item.skill} level={item.level} key={idx} />
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

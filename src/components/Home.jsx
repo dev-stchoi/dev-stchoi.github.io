@@ -32,7 +32,7 @@ const Home = () => {
   }, []);
 
   useEffect(() => {
-    if (scroll > 700) {
+    if (scroll > 650) {
       setHeaderHide(true);
     } else {
       setHeaderHide(false);

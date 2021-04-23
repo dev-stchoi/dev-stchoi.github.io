@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100');
+.skill {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(231, 230, 230);
+  padding-top: 8vh;
+  padding-bottom: 4vh;
+}
+.skill_title {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  align-self: center;
+  font-size: 4vw;
+  margin-bottom: 30px;
+}
+
+.skill_Content {
+  margin-bottom: 20px;
+}
+
+.skill_image_container:hover .skill_label {
+  visibility: visible;
+  animation: fadeout1 0.5s;
+  -moz-animation: fadeout1 0.5s; /* Firefox */
+  -webkit-animation: fadeout1 0.5s; /* Safari and Chrome */
+  -o-animation: fadeout1 0.5s; /* Opera */
+}
+@keyframes fadeout1 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+@-moz-keyframes fadeout1 {
+  /* Firefox */
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+@-webkit-keyframes fadeout1 {
+  /* Safari and Chrome */
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+@-o-keyframes fadeout1 {
+  /* Opera */
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
