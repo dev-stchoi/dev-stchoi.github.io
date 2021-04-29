@@ -64,32 +64,9 @@
   padding-top: 3rem;
 }
 
-.bar {
-  display: flex;
-  font-size: 1rem;
-  height: 3.5vh;
-  margin: 0 0 1rem 0;
-  max-width: 90%;
-}
-
-.bar_fill {
-  width: 90%;
-  background-color: #00a1a7;
-  opacity: 1;
-  font-size: 1rem;
-  height: 3.5vh;
-  /* margin: 0px 0 10px 0; */
-}
-
-.bold {
-  width: 110px;
-  background-color: #04c2c9;
-  color: #fff;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.content_title {
+  margin: 15px 0 5px 0;
+  color: #616161;
 }
 
 /* @media (max-width: 576px) {

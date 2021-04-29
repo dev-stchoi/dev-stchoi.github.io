@@ -2,39 +2,17 @@ import React from 'react';
 import myImg from '../img/choi.jpg';
 import adaptive from '../img/adaptive.png';
 import goal from '../img/goal.png';
-import teamwork from '../img/teamwork.png';
+import leadership from '../img/leadership.png';
 import { Typography } from 'antd';
-import Bar from './molecules/Bar';
 import './About.css';
 
+const content_title = {
+  margin: '15px 0 5px 0',
+  color: '#FF7F50',
+};
+
 const About = () => {
-  const { Title } = Typography;
-  const data = [
-    {
-      skill: 'React',
-      level: '50%',
-    },
-    {
-      skill: 'Javascript',
-      level: '80%',
-    },
-    {
-      skill: 'Java',
-      level: '70%',
-    },
-    {
-      skill: 'Oracle',
-      level: '70%',
-    },
-    {
-      skill: 'CSS',
-      level: '20%',
-    },
-    {
-      skill: 'Git',
-      level: '80%',
-    },
-  ];
+  const { Title, Text } = Typography;
 
   return (
     <div className="about" id="a">
@@ -46,30 +24,37 @@ const About = () => {
           <div>
             <img src={adaptive} className="icon" alt="adaptive" />
           </div>
-          <div>강점1</div>
+          <Title level={4} style={content_title}>
+            적응력 및 습득력
+          </Title>
+          <Text strong>
+            SI 프로젝트를 수행하며 다양한 인프라와 기술을 경험하였습니다. 그로
+            인해 빠른 적응력과 습득력을 가지고 있습니다.
+          </Text>
         </div>
         <div className="strength_size">
           <div>
-            <img src={teamwork} className="icon" alt="teamwork" />
+            <img src={leadership} className="icon" alt="leadership" />
           </div>
-          <div>강점2</div>
+          <Title level={4} style={content_title}>
+            리더쉽
+          </Title>
+          <Text strong>강점2</Text>
         </div>
         <div className="strength_size">
           <div>
             <img src={goal} className="icon" alt="goal" />
           </div>
-          <div>강점3</div>
+          <Title level={4} style={content_title}>
+            도전
+          </Title>
+          <Text strong>강점3</Text>
         </div>
       </div>
       <div className="about_layer">
         <div className="about_me_picture">
           <img src={myImg} className="hedding" alt="profile" />
         </div>
-        {/* <div className="about_me_content">
-          {data.map((item, idx) => (
-            <Bar skill={item.skill} level={item.level} key={idx} />
-          ))}
-        </div> */}
       </div>
     </div>
   );
