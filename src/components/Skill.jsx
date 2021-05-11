@@ -24,22 +24,27 @@ const Skill = () => {
         <Title>Skils</Title>
       </div>
       <div className="skill_Content">
-        <Simage url={java} familiar="familiar"></Simage>
-        <Simage url={js} familiar="familiar"></Simage>
-        <Simage url={html} familiar="familiar"></Simage>
-        <Simage url={jquery} familiar="familiar"></Simage>
-        <Simage url={css} familiar="familiar"></Simage>
+        <Simage url={java} familiar="familiar" />
+        <Simage url={js} familiar="familiar" />
+        <Simage url={html} familiar="familiar" />
+        <Simage url={jquery} familiar="familiar" />
       </div>
       <div className="skill_Content">
-        <Simage url={react} familiar="familiar"></Simage>
-        <Simage url={nexacro} familiar="familiar"></Simage>
-        <Simage url={proobject} familiar="familiar"></Simage>
-        <Simage url={spring} familiar="familiar"></Simage>
+        <Simage url={react} familiar="familiar" />
+        <Simage url={nexacro} familiar="familiar" />
+        <Simage url={proobject} familiar="familiar" />
+        <Simage url={spring} familiar="familiar" />
       </div>
       <div className="skill_Content">
-        <Simage url={oracle} familiar="familiar"></Simage>
-        <Simage url={mysql} familiar="familiar"></Simage>
-        <Simage url={git} familiar="familiar"></Simage>
+        <Simage url={oracle} familiar="familiar" />
+        <Simage url={mysql} familiar="familiar" />
+        <Simage url={git} familiar="familiar" />
+      </div>
+      <div className="skill_title">
+        <Title>try</Title>
+      </div>
+      <div className="skill_Content">
+        <Simage url={css} />
       </div>
     </div>
   );

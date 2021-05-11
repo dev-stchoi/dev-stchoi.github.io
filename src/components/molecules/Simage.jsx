@@ -7,7 +7,7 @@ const SImage = ({ url, familiar }) => {
       className="skill_image_container"
       style={{ backgroundImage: `url(${url})` }}
     >
-      <div className="skill_label">{familiar}</div>
+      {familiar && <div className="skill_label">{familiar}</div>}
     </div>
   );
 };

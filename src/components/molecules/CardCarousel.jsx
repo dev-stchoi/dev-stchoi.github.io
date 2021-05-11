@@ -14,7 +14,6 @@ const CardCarousel = props => {
             <Card
               title={card.name}
               bordered={false}
-              hoverable
               headStyle={{ fontWeight: 'bold' }}
               className="contentStyle"
             >

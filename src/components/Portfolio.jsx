@@ -15,6 +15,7 @@ const Portfolio = () => {
         tool: 'Eclipse, VSCode, Sql Developer, Oz Report, DA#, git(sourcetree)',
         language: 'Java, JavaScript, Oracle SQL',
       },
+      link: 'https://evote.ksd.or.kr/login',
     },
     {
       name: 'PMS(Project Manager System) 개선',
