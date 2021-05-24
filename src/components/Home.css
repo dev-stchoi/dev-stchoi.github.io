@@ -36,10 +36,17 @@
   background: none;
   border-radius: 12px;
   border: 2px solid #fff;
+  margin:20px 0 0;
 }
 
 .button:hover {
   cursor: pointer;
   background: #04c2c9;
   transition: all 0.5s;
+}
+
+/* 모바일 */
+@media screen and (max-width: 767px){
+  .typer-text{font-size:5vw;}
+  .button {width:50vw;font-size:4vw;}
 }

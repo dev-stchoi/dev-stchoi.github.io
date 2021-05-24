@@ -66,3 +66,12 @@
     opacity: 0.8;
   }
 }
+
+/* 모바일 */
+@media screen and (max-width: 767px){
+  .skill_Content {margin:0;padding:0 15px;}
+  .skill_image_container {width:27%;height:auto;margin:0 3% 20px;background-size:100% 100%;}
+  .skill_image_container img {width:100%;}
+  .skill_image_container:nth-child(3) {background-size:90% 90%;background-position:center center;}
+  .skill_label {width:100%;height:100px;}
+}

@@ -61,21 +61,14 @@
   height: 25vw;
 }
 
-/* @media (max-width: 576px) {
-  .about_me {
-    display: inherit;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-  }
-  .about_me_title {
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .about_me_content {
-    display: inline-block;
-    margin-top: 0px;
-    width: 100%;
-  }
-} */
+/* 모바일 */
+@media screen and (max-width: 767px){
+  .about_me_picture {display:block;width:100%;margin:0;}
+  .hedding {width:100%;height:auto;padding:0 15px;}
+  .strength_layer {width:100%;}
+  .strength_img {width:100%;}
+  .icon {display:inline-block;margin:18px 10px 0 0;vertical-align:top;}
+  .strength_size {display:block;}
+  h4.ant-typography, .ant-typography h4 {display:inline-block;padding:0;}
+  .ant-typography {display:block;padding:0 15px;text-align:center;}
+}

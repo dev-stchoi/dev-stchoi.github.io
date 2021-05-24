@@ -8,7 +8,7 @@ import './About.css';
 
 const content_title = {
   margin: '15px 0 5px 0',
-  color: '#FF7F50',
+  color: '#04c2c9',
 };
 
 const content_text = {
