@@ -12,7 +12,7 @@ const Portfolio = () => {
       role: '전자투표 행사, 전자투표 행사 철회, 통계, 배치, 인터페이스',
       skill: {
         frameworks: 'eGov Framework 3.8, React, swagger',
-        tool: 'Eclipse, VSCode, Sql Developer, Oz Report, DA#, git(sourcetree)',
+        tool: 'Eclipse, VSCode, Sql Developer, Oz Report, DA#, git',
         language: 'Java, JavaScript, Oracle SQL',
       },
       link: 'https://evote.ksd.or.kr/login',
