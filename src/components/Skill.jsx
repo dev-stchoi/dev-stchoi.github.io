@@ -29,10 +29,14 @@ const Skill = () => {
         <Simage url={js} familiar="familiar" />
         <Simage url={html} familiar="familiar" />
         <Simage url={jquery} familiar="familiar" />
+      </div>
+      <div className="skill_Content">
         <Simage url={react} familiar="familiar" />
         <Simage url={nexacro} familiar="familiar" />
         <Simage url={proobject} familiar="familiar" />
         <Simage url={spring} familiar="familiar" />
+      </div>
+      <div className="skill_Content">
         <Simage url={oracle} familiar="familiar" />
         <Simage url={mysql} familiar="familiar" />
         <Simage url={git} familiar="familiar" />

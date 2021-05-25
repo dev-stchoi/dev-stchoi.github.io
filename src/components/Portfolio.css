@@ -15,14 +15,47 @@
   width: 45vw;
 }
 
+.ant-card-head,
+.ant-card-body {
+  color: #fff;
+}
+.ant-card.contentStyle {
+  background: #364d79;
+}
+.ant-card-body .ant-typography {
+  color: #fff;
+}
+
 /* 모바일 */
-@media screen and (max-width: 767px){
-  .carousel {display:block;height:450px;padding-top:8vh;}
-  .carousel_siz {width:100%;}
+@media screen and (max-width: 767px) {
+  .carousel {
+    display: block;
+    height: 450px;
+    padding-top: 8vh;
+  }
+  .carousel_siz {
+    width: 100%;
+  }
   .ant-card-head,
-  .ant-card-body {padding:0 15px;color:#fff;}
-  .ant-card.contentStyle {height:330px;padding:0 0 15px;background:#364d79;}
-  .textStyle {padding:10px 0;font-size:1.1em;line-height:1.2em;}
-  .ant-card-body .ant-typography {padding:0;font-size:0.9em;font-weight:normal;text-align:left;color:#fff;}
-  .ant-carousel .slick-dots-bottom {bottom:0;}
+  .ant-card-body {
+    padding: 0 15px;
+  }
+  .ant-card.contentStyle {
+    height: 330px;
+    padding: 0 0 15px;
+  }
+  .textStyle {
+    padding: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+  .ant-card-body .ant-typography {
+    padding: 0;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+  }
+  .ant-carousel .slick-dots-bottom {
+    bottom: 0;
+  }
 }
