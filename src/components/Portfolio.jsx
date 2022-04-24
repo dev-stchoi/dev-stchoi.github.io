@@ -9,7 +9,7 @@ const Portfolio = () => {
     {
       name: '한국해양진흥공사 차세대 업무시스템 구축',
       date: '2021-06-21 ~ 2022-05-13',
-      role: '투자업무 설계 및 개발(투자신청, 투자실행, 전표처리, 마감배치)',
+      role: '투자업무 설계 및 개발(투자신청, 투자실행, 전표처리, 마감배치, ERD설계)',
       skill: {
         frameworks: 'eGov Framework 3.9',
         tool: 'websquare, Eclipse, VSCode, DBeaver, Oz Report, DA#, git(GitHub Desktop)',
