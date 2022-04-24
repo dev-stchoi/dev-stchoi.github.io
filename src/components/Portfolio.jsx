@@ -7,6 +7,16 @@ const Portfolio = () => {
   const { Title } = Typography;
   const cardList = [
     {
+      name: '한국해양진흥공사 차세대 업무시스템 구축',
+      date: '2021-06-21 ~ 2022-05-13',
+      role: '투자업무 설계 및 개발(투자신청, 투자실행, 전표처리, 마감배치)',
+      skill: {
+        frameworks: 'eGov Framework 3.9',
+        tool: 'websquare, Eclipse, VSCode, DBeaver, Oz Report, DA#, git(GitHub Desktop)',
+        language: 'Java, JavaScript, Tibero SQL',
+      },
+    },
+    {
       name: '한국예탁결제원 전자투표시스템',
       date: '2019-12-09 ~ 2020-12-07',
       role: '전자투표 행사, 전자투표 행사 철회, 통계, 배치, 인터페이스',
