@@ -14,6 +14,7 @@ import mysql from '../img/mysql.png';
 import nexacro from '../img/nexacro.gif';
 import oracle from '../img/oracle.png';
 import proobject from '../img/proobject.png';
+import websquare from '../img/websquare.png';
 import spring from '../img/spring.png';
 import node from '../img/node.png';
 
@@ -33,10 +34,11 @@ const Skill = () => {
       <div className="skill_Content">
         <Simage url={react} familiar="familiar" />
         <Simage url={nexacro} familiar="familiar" />
+        <Simage url={websquare} familiar="familiar" />
         <Simage url={proobject} familiar="familiar" />
-        <Simage url={spring} familiar="familiar" />
       </div>
       <div className="skill_Content">
+        <Simage url={spring} familiar="familiar" />
         <Simage url={oracle} familiar="familiar" />
         <Simage url={mysql} familiar="familiar" />
         <Simage url={git} familiar="familiar" />
